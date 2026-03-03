@@ -1,0 +1,1117 @@
+ * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box
+    }
+
+
+    .navbar {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+    }
+
+    .namebox {
+        width: 10%;
+        height: 50px;
+        background-color: transparent;
+        position: absolute;
+        left: 180px;
+        top: 20px;
+    }
+
+    .namebox h1 {
+        font-size: 45px;
+        font-family: Imperial Script;
+        color: white;
+        font-weight: 100;
+    }
+
+    .navbarbox {
+        width: 30%;
+        height: 50px;
+        background-color: transparent;
+        position: absolute;
+        left: 540px;
+        top: 25px;
+    }
+
+    .navbarbox ul {
+        list-style-type: none;
+        line-height: 50px;
+    }
+
+    .navbarbox ul li {
+        display: inline;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-left: 11px;
+    }
+
+    .navbarbox ul li a {
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+    }
+
+    .navbarbox ul li:hover a {
+        color: #f4b146;
+    }
+
+    .iconbox {
+        width: 20%;
+        height: 50px;
+        background-color: transparent;
+        position: absolute;
+        left: 1100px;
+        top: 20px;
+    }
+
+    .iconbox ul {
+        display: flex;
+        gap: 2px;
+        list-style: none;
+        line-height: 60px;
+    }
+
+    .iconbox ul li {
+        margin: 0 10px;
+    }
+
+    .iconbox ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        transition: all 1s ease;
+        display: inline-block;
+    }
+
+    .iconbox ul li:hover a {
+        color: #f4b146;
+    }
+
+    .order-btn {
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        background-color: #FFBE33;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .order-btn:hover {
+        background-color: #f0a52b;
+    }
+
+    .background img {
+        width: 100%;
+        height: 740px;
+
+    }
+    
+    .active{
+        color:orange !important;
+        background-color: black;
+    }
+
+
+/* section1 */
+
+      .sec-1 {
+        width: 100%;
+        height: 1100px;
+        background-color: white;
+        position: relative;
+    }
+
+    .main {
+        width: 100%;
+        height: 740px;
+        background-image: url(images/cover-image.jpg);
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    .text-slider {
+        width: 300%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        left: 0;
+    }
+
+
+    .slide {
+        width: 100%;
+        padding: 200px 0 0 200px;
+        color: white;
+    }
+
+    .text-boxx h1 {
+        font-family: Imperial Script;
+        font-size: 65px;
+        font-weight: 100;
+        margin-top: 20px;
+    }
+
+    .text-boxx h2 {
+        font-family: arial;
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 10px;
+        font-weight: 100;
+        line-height: 20px;
+    }
+
+    .slider-buttons {
+        position: absolute;
+        bottom: 50px;
+        left: 200px;
+        top: 600px;
+    }
+
+    .slider-buttons button {
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        margin-right: 3px;
+        transition: 0.3s ease;
+    }
+
+    .slider-buttons button.active {
+        background-color: #FFBE33;
+        transform: scale(1.5);
+    }
+
+
+    .order-btn2 {
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        background-color: #FFBE33;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        margin-top: 25px;
+    }
+
+    .order-btn2:hover {
+        background-color: #f0a52b;
+    }
+
+    .boxxx {
+        width: 80%;
+        height: 250px;
+        background-color: transparent;
+        position: relative;
+        top: 80px;
+        left: 150px;
+    }
+
+    .box-a {
+        width: 48%;
+        height: 200px;
+        background-color: black;
+        border-radius: 5px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .box-b {
+        width: 48%;
+        height: 200px;
+        background-color: black;
+        border-radius: 5px;
+        position: absolute;
+        top: 10px;
+        left: 630px;
+    }
+
+    .circle1 {
+        width: 170px;
+        height: 170px;
+        border: 5px solid #FFBE33;
+        position: absolute;
+        border-radius: 50%;
+        top: 15px;
+        left: 15px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .circle1 img {
+        width: 158px;
+        height: 158px;
+        border-radius: 50%;
+        transition: transform 0.3s ease;
+        overflow: hidden;
+    }
+
+    .circle1 img:hover {
+        transform: scale(1.15);
+    }
+
+    .circle1 img.zoomIn {
+        transform: scale(1.2);
+    }
+
+    .circle1 img.zoomIn {
+        transform: scale(1.2);
+    }
+
+
+    .text-box1x {
+        width: 50%;
+        height: 120px;
+        background-color: transparent;
+        position: absolute;
+        top: 35px;
+        left: 200px;
+    }
+
+    .text-box1x h3 {
+        font-size: 30px;
+        font-family: Imperial Script;
+        color: white;
+        font-weight: 100;
+    }
+
+    .text-box1x h2 {
+        font-size: 50px;
+        font-family: Imperial Script;
+        color: white;
+    }
+
+    .text-box1x span {
+        font-size: 20px;
+        font-family: Imperial Script;
+        color: white;
+        margin-left: 5px;
+        font-weight: 100;
+    }
+
+    .order-btnn {
+        width: 170px;
+        height: 40px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        background-color: #FFBE33;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        margin-top: 5px;
+    }
+
+    .box-a:hover .circle1 img {
+        transform: scale(1.15);
+    }
+
+    .box-b:hover .circle1 img {
+        transform: scale(1.15);
+    }
+
+    .order-btnn:hover {
+        background-color: #f0a52b;
+    }
+
+    .carts {
+        font-size: 18px;
+    }
+
+    /* Menu */
+
+    .background {
+        width: 100%;
+        height: 1700px;
+        background-color: white;
+        position: relative;
+    }
+
+    .text {
+        width: 10%;
+        height: 50px;
+        background-color: white;
+        position: absolute;
+        top: 30px;
+        left: 670px;
+    }
+
+    .text h2 {
+        font-size: 40px;
+        font-family: Imperial Script;
+    }
+
+    .option-box {
+        width: 30%;
+        height: 60px;
+        background-color: white;
+        position: absolute;
+        top: 120px;
+        left: 550px;
+    }
+
+    .option-box ul {
+        display: flex;
+        gap: 0px;
+        list-style: none;
+        line-height: 60px;
+    }
+
+    .option-box ul li {
+        margin: 0 10px;
+    }
+
+    .option-box ul li a {
+        text-decoration: none;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        transition: 0.3s ease;
+        padding: 5px 15px;
+        border-radius: 50px;
+    }
+
+    .option-box ul li a.active {
+        background-color: black;
+        color: white;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        width: 77%;
+        background-color: white;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        min-height: 420px;
+    }
+
+    .box1 {
+        top: 210px;
+        left: 180px;
+    }
+
+    .box2 {
+        top: 665px;
+        left: 180px;
+    }
+
+    .box3 {
+        top: 1120px;
+        left: 180px;
+    }
+
+
+    .box {
+        flex: 0 0 31.5%;    
+        max-width: 31.5%;
+        height: 420px;
+        background-color: #222831;
+        border-radius: 20px;
+        position: relative;
+    }
+
+
+    .box:hover .img2 {
+        transform: scale(1.14);
+    }
+
+    .firstbox {
+        width: 100%;
+        height: 210px;
+        position: relative;
+        background-color: #ebedf1ff;
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .firstbox img {
+        width: 140px;
+        height: 140px;
+        position: absolute;
+        top: 35px;
+        left: 120px;
+    }
+
+    .firstbox img.img1 {
+        width: 200px;
+        height: 140px;
+        position: absolute;
+        top: 35px;
+        left: 85px;
+    }
+
+    .firstbox img.img2 {
+        width: 250px;
+        height: 140px;
+        position: absolute;
+        top: 35px;
+        left: 60px;
+    }
+
+    .firstbox img.img3 {
+        width: 230px;
+        height: 140px;
+        position: absolute;
+        top: 35px;
+        left: 70px;
+    }
+
+    .firstbox img.img4 {
+        width: 180px;
+        height: 140px;
+        position: absolute;
+        top: 35px;
+        left: 100px;
+    }
+
+    .firstbox img.img5 {
+        width: 180px;
+        height: 140px;
+        position: absolute;
+        top: 35px;
+        left: 90px;
+    }
+
+    .text-box {
+        width: 87%;
+        height: 160px;
+        background-color: transparent;
+        position: absolute;
+        left: 30px;
+        top: 240px;
+    }
+
+    .text-box h2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+    }
+
+    .text-box h3 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        font-weight: 100;
+        margin-top: 10px;
+    }
+
+    .text-box h4 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        margin-top: 30px;
+    }
+
+    .circle {
+        width: 40px;
+        height: 40px;
+        background-color: #FFBE33;
+        border-radius: 50%;
+        position: absolute;
+        top: 115px;
+        left: 275px;
+    }
+
+    .cartx {
+        color: white;
+        font-size: 18px;
+        position: absolute;
+        top: 12px;
+        left: 12px;
+    }
+
+    .viewbtn {
+        width: 13%;
+        height: 45px;
+        background-color: #FFBE33;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        position: absolute;
+        top: 1580px;
+        left: 670px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .viewbtn:hover {
+        background-color: #f0a52b;
+    }
+
+    
+
+    .hidden {
+        display: none
+    }
+
+    .show-effect {
+        opacity: 0;
+        transform: translateY(40px);
+        animation: show 0.6s ease forwards;
+    }
+
+    @keyframes show {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .allactive{background-color: black; padding:5px}
+    .activecolor{color:white !important}
+
+    /* about */
+    .about-sec {
+        width: 100%;
+        height: 800px;
+        background-color: #222831;
+        position: relative;
+    }
+
+    .about-sec img {
+        width: 30%;
+        height: 600px;
+        position: absolute;
+        top: 100px;
+        left: 250px;
+    }
+
+    .textbox {
+        width: 37%;
+        height: 300px;
+        background-color: transparent;
+        position: absolute;
+        top: 250px;
+        left: 800px;
+    }
+
+    .textbox h2 {
+        color: white;
+        font-size: 50px;
+        font-family: Imperial Script;
+        font-weight: 100;
+    }
+
+    .textbox h3 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        font-weight: 100;
+        margin-top: 15px;
+        line-height: 23px;
+    }
+
+    .readbtn {
+        width: 160px;
+        height: 40px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        background-color: #FFBE33;
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        top: 220px;
+        cursor: pointer;
+    }
+
+    .readbtn:hover {
+        background-color: #f0a52b;
+    }
+
+    /* book-table */
+
+     .book-table {
+        width: 100%;
+        height: 650px;
+        background-color: white;
+        position: relative;
+    }
+
+    .book-table h1 {
+        font-size: 50px;
+        font-family: Imperial Script;
+        font-weight: 100;
+        position: absolute;
+        top: 80px;
+        left: 180px;
+    }
+
+    .about-box1 {
+        width: 37%;
+        height: 450px;
+        background-color: transparent;
+        position: absolute;
+        top: 180px;
+        left: 180px;
+    }
+
+    .about-box2 {
+        width: 37%;
+        height: 350px;
+        background-color: gray;
+        border-radius: 8px;
+        position: absolute;
+        top: 180px;
+        left: 780px;
+    }
+
+    .input1, .input2 {
+        width: 100%;
+        height: 50px;
+        outline: none;
+        border-radius: 5px;
+        padding-left: 20px;
+        font-size: 17px;
+    }
+
+    .input2 { margin-top: 25px; }
+
+    .bookbtn {
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        background-color: #FFBE33;
+        color: white;
+        font-size: 15px;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+
+    .bookbtn:hover {
+        background-color: #f0a52b;
+    }
+
+    .input1::placeholder, .input2::placeholder {
+        color: black;
+    }
+
+    /* customer-reviews */
+
+     .customer-review {
+        width: 100%;
+        height: 640px;
+        background-color: white;
+        position: relative;
+    }
+
+    .text-box77 {
+        width: 30%;
+        height: 50px;
+        background-color: transparent;
+        position: absolute;
+        top: 60px;
+        left: 530px;
+    }
+
+    .text-box77 {
+        font-size: 25px;
+        font-family: Imperial Script;
+        font-weight: 100;
+    }
+
+    .review-box {
+        width: 70%;
+        height: 400px;
+        background-color: transparent;
+        position: absolute;
+        left: 240px;
+        top: 160px;
+    }
+
+    .review-box1 {
+        width: 48%;
+        height: 180px;
+        background-color: #222831;
+        border-radius: 5px;
+    }
+
+    .review-box1 h2 {
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        top: 20px;
+        left: 20px;
+        line-height: 23px;
+    }
+
+    .review-box1 h1 {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        top: 105px;
+        left: 20px;
+        line-height: 23px;
+    }
+
+    .review-box1 h3 {
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        top: 135px;
+        left: 20px;
+        line-height: 23px;
+    }
+
+
+    .review-box2 {
+        width: 48%;
+        height: 180px;
+        background-color: #222831;
+        border-radius: 5px;
+        position: absolute;
+        left: 555px;
+        top: 1px;
+    }
+
+    .review-box2 h2 {
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        top: 20px;
+        left: 20px;
+        line-height: 23px;
+    }
+
+    .review-box2 h1 {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        top: 105px;
+        left: 20px;
+        line-height: 23px;
+    }
+
+    .review-box2 h3 {
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        top: 135px;
+        left: 20px;
+        line-height: 23px;
+    }
+
+    .customer-img1 {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: #FFBE33;
+        position: absolute;
+        top: 205px;
+        z-index: 1;
+    }
+
+    .customer-img1::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: #FFBE33;
+        transform: rotate(135deg);
+        left: 45px;
+        top: -8px;
+        z-index: 0;
+    }
+
+    .customer-img1 img {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        margin-left: 5px;
+        margin-top: 5px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .customer-img2 {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: #FFBE33;
+        position: absolute;
+        top: 205px;
+        left: 550px;
+        z-index: 1;
+    }
+
+    .customer-img2::before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: #FFBE33;
+        transform: rotate(135deg);
+        left: 45px;
+        top: -8px;
+        z-index: 0;
+    }
+
+    .customer-img2 img {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        margin-left: 5px;
+        margin-top: 5px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .left-btn {
+        width: 45px;
+        height: 45px;
+        background-color: #FFBE33;
+        border-radius: 50%;
+        position: absolute;
+        top: 350px;
+        left: 480px;
+        cursor: pointer;
+    }
+
+    .bi-chevron-left {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .right-btn {
+        width: 45px;
+        height: 45px;
+        background-color: #FFBE33;
+        border-radius: 50%;
+        position: absolute;
+        top: 350px;
+        left: 540px;
+        cursor: pointer;
+    }
+
+    .bi-chevron-right {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 10px;
+        left: 13px;
+    }
+
+    /* footer */
+
+    .footer-box {
+     width: 100%;
+     height: 450px;
+     background-color: #222831;
+     position: relative;
+   }
+
+   .text1 {
+     width: 20%;
+     height: 50px;
+     background-color: transparent;
+     position: absolute;
+     top: 90px;
+     left: 200px;
+   }
+
+   .text1 h1 {
+     text-align: center;
+     font-family: Imperial Script;
+     color: white;
+     font-size: 35px;
+   }
+
+   .text-box1 {
+     width: 20%;
+     height: 150px;
+     background-color: transparent;
+     position: absolute;
+     top: 150px;
+     left: 200px;
+   }
+
+   .text-box1 h3 {
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 100;
+     color: white;
+     font-size: 17px;
+     line-height: 30px;
+   }
+
+   .bi-geo-alt-fill {
+     color: white;
+     position: absolute;
+     left: 97px;
+     top: 5px;
+   }
+
+   .bi-telephone-fill {
+     color: white;
+     position: absolute;
+     left: 47px;
+     top: 37px;
+   }
+
+   .bi-envelope-fill {
+     color: white;
+     position: absolute;
+     left: 57px;
+     top: 68px;
+   }
+
+   .text2 {
+     width: 20%;
+     height: 50px;
+     background-color: transparent;
+     position: absolute;
+     top: 90px;
+     left: 640px;
+   }
+
+   .text2 h1 {
+     text-align: center;
+     font-family: Imperial Script;
+     color: white;
+     font-size: 38px;
+   }
+
+   .text-box2 {
+     width: 25%;
+     height: 80px;
+     background-color: transparent;
+     position: absolute;
+     top: 150px;
+     left: 600px;
+   }
+
+   .text-box2 h3 {
+     text-align: center;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 17px;
+     font-weight: 10;
+   }
+
+   .text3 {
+     width: 20%;
+     height: 50px;
+     background-color: transparent;
+     position: absolute;
+     top: 90px;
+     left: 1050px;
+   }
+
+   .text3 h1 {
+     text-align: center;
+     font-family: Imperial Script;
+     color: white;
+     font-size: 35px;
+   }
+
+   .text-box3 {
+     width: 20%;
+     height: 80px;
+     background-color: transparent;
+     position: absolute;
+     top: 140px;
+     left: 1050px;
+   }
+
+   .text-box3 h3 {
+     text-align: center;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 17px;
+     line-height: 40px;
+     font-weight: 10;
+   }
+
+   .text-box4 {
+     width: 30%;
+     height: 80px;
+     background-color: transparent;
+     position: absolute;
+     top: 340px;
+     left: 560px;
+   }
+
+   .text-box4 h3 {
+     text-align: center;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 17px;
+     line-height: 40px;
+     font-weight: 10;
+   }
+
+   .i-section {
+     width: 15%;
+     height: 50px;
+     background-color: transparent;
+     position: absolute;
+     top: 240px;
+     left: 685px;
+   }
+
+   .i-section ul {
+     list-style-type: none;
+     line-height: 13px;
+   }
+
+   .i-section ul li {
+     display: inline-block;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background-color: white;
+     margin-left: 1px;
+      margin-right: 1px;
+     padding: 10px
+   }
+
+   .i-section ul li a {
+     text-decoration: none;
+     font-size: 18px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: black;
+   }
+
+   .i-section ul li:hover i {
+     color: #f4b146;
+   }
